@@ -1,50 +1,100 @@
-// OPEARATORS -> USED TO PERFORM SOME OPEARTION ON DATA
+// console.log("welcome to javascript");
+// console.log("Neha Baghele");
+// Dynamically typed 
+// rules - 1) case sensitive 2) only letters, digits , _ ,$ is allowed. 3)letter ,underscore,$ should be first char.4)reserved words cannot be variale name.
 
-// Unary operator -> modulus exponentation increment decrement
 
-// 1. Arithmetic operation -> + - * /
+// DATA TYPES 
+// Number, String, Boolean, undefined,null,BigInt,Symbol 
 
-// let a = 5;
-// let b = 2;
-// console.log("a = ", a, " &  b = ",b);
-// a = a-1; //a--
-// console.log("a = ",a);//4
-// b--;
-// console.log("b = ", b);//1
 
-// 2. Assignment operators -> = += -= *=  %= **=
-// += -> a = a+4 -> a+=4
+// let fullName = "Neha Baghele";
+// let age = 18;
+// let price = 99.99;
+// let x=null;
+// let y=undefined;
+// console.log(x);
+// let isFollow = true;
+// console.log(isFollow);
 
-// let a = 5;
-// let b = 2;
 
-// a %= 4; // a= a % 4; -> give remainder
-// console.log("a = ", a);//1
+//special case 
+// let fullName1 = 25;
+// console.log(fullName1);
 
-//3. Comparison operator-> == >= <= < > 
+// let keyword
 
-// let a = 5;
-// let b = 2;
+// let fullName = "Neha Baghele";
+// let $fullName = "Neha Baghele";
+// let _fullName = "Neha Baghele";
+// let age = 18;
+// let totalPrice = 1000;
 
-// console.log("5==2",a==b);// false
+// console.log($fullName);
+// console.log(_fullName);
+// console.log(age);
+// console.log(totalPrice);
 
-// let a = 5; //number
-// let b = "5"; //string -> number
+// let age = 24;
+// age = 59;
+// age = 86;
+// console.log(age);
 
-// // console.log("a == b" ,a == b);//true
-// console.log("a != b",a!=b);//false
-// console.log("5 <=5", a<=b); //true
+// const PI = 3.14;
+// console.log(PI);
 
-// let a = 6;
-// let b = 5;
+// var age = 24;
+// var age = 59;
+// var age = 86;
+// console.log(age);
 
-// console.log("cond1 && cond2", a<b && a===6);//false
+// let a;
+// a=10;
+// console.log(a);
 
-//4. LOGICAL OPERATOR
+// let age = 24;
+// let price = 100.5;
+// console.log(price);
 
-// LOGICAL AND &&,LOGICAL OR ||, LOGICAL NOT !
+// isFollow = true;
+// console.log(isFollow);
 
-// let a = 6;
-// let b = 5;
-// console.log("!(6<5) = ", !(a === 6)); //false
+// let x = BigInt("1234635732");
+// let y = Symbol("Hello");
+// console.log(x);
 
+const student = {
+  fullName : "rahul kumar",
+  age : 20,
+  cgpa: 8.3,
+  isPass : true,
+};
+// console.log(student);
+// console.log(student.age);
+// console.log(student.cgpa);
+
+student["age"] = student["age"] + 1;
+console.log(student["age"]);
+
+// or 
+
+student["fullName"] = "Neha Baghle";
+console.log(student["fullName"]);
+
+// PRACTICE Question
+const product = {
+  fullName :"Ball Pen",
+  rating : 4,
+  offer: 5,
+  price :270,
+
+
+};
+console.log(product);
+console.log(product.offer);
+
+// comments in javascript 
+ 
+// -> for single line 
+/* multiline 
+comments */ 
